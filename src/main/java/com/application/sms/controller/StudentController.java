@@ -1,9 +1,11 @@
 package com.application.sms.controller;
 
 import com.application.sms.service.StudentService;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+@Controller
 public class StudentController {
     private StudentService studentService;
 
